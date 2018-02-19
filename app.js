@@ -33,7 +33,7 @@ usersRef.on('child_added', function(snap) {
 
 });
 
-function userClicked(e) {
+function userClicked(e) { 
   alert("click");
   // var userID = e.target.getAttribute('child-key');
   // var userRef = dbRef.child('users/' + userID);
